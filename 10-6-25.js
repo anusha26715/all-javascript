@@ -128,7 +128,7 @@ for (const match of matches) {
 
 // Feature	              match()	                            matchAll()
 // Returns	         Array or null	                 Iterator (you loop through it)
-// Global support	 Needs g flag for all matches	   Must use g flag
-// Capture groups	 Only for first match	           For all matches
+// Global support	   Needs g flag for all matches	   Must use g flag
+// Capture groups	   Only for first match	           For all matches
 // Usecase	         Simple matching	               Advanced matching with groups/positions
 
