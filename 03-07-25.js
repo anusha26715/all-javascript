@@ -52,6 +52,7 @@ rl.question("Enter input: ", function (input) {
 
   for (let i = 0; i < testCases.length; i++) {
     const parts = testCases[i].split(" ").map(Number);
+    console.log(`part is ${parts}`)
     const carryCapacity = parts[parts.length - 2];
     const maxWeight = parts[parts.length - 1];
     const boxWeight = parts.slice(0, parts.length - 2);
@@ -99,3 +100,5 @@ function minTrips(boxes, carryCapacity, maxWeight) {
 
   return trips;
 }
+
+
